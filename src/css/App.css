@@ -1,0 +1,413 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2.5em;
+}
+
+.App-intro {
+  color: teal;
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+// styles from v1 by Heather
+
+body {
+  background-color: black;
+}
+
+hr {
+  border-color: red;
+}
+
+.example6 .navbar-brand{
+  background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
+  /*ENLYTEN logo image*/
+  width: 200px;
+  height: 90px;
+}
+
+.navbar {
+  background-color: black;
+  padding-top: 15px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  padding-top: 42px;
+  color: white;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu {
+  font-size: 15px;
+  font-family: 'Arsenal', sans-serif;
+}
+
+.dropdown-menu>li>a {
+  color: white;
+}
+
+.cols {
+    -moz-column-count:4;
+    -moz-column-gap: 3%;
+    -moz-column-width: 30%;
+    -webkit-column-count:4;
+    -webkit-column-gap: 3%;
+    -webkit-column-width: 30%;
+    column-count: 4;
+    column-gap: 3%;
+    column-width: 30%;
+    background-color: black;
+    margin-top: 105px;
+}
+
+.fade {
+   opacity: 0.3;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.fade:hover {
+  opacity: 1;
+  }
+
+#hollyWedding {
+  width: 103%;
+  margin-top: 4px;
+}
+
+#booneWedding {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#heatherFamily {
+  width: 103%;
+  margin-top: 4px;
+}
+
+#reflection {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#pie {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#redcross {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#moon {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#rubix {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#rainier {
+ width: 103%;
+ margin-top: 4px;
+}
+
+#familyBridge {
+ width: 103%;
+ margin-top: 4px;
+}
+
+footer {
+  padding-top: 6em;
+  color: gray;
+  text-align: center;
+}
+
+body {
+  margin-top: 30px;
+}
+
+#container {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 130px;
+}
+
+.thumbnail {
+  max-width: 100%;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  max-width: 72%;
+  margin-top: 10%;
+  min-height: 50%;
+  margin-bottom: 10%
+}
+
+.lightbox:target {
+  outline: none;
+  display: block;
+}
+
+body {
+  background-color: black;
+}
+
+hr {
+  border-color: red;
+}
+
+.example6 .navbar-brand{
+  background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
+  /*ENLYTEN logo image*/
+  width: 200px;
+  height: 90px;
+}
+
+.navbar {
+  background-color: black;
+  padding-top: 15px;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  padding-top: 42px;
+  color: white;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: black;
+}
+
+.dropdown-menu {
+  font-size: 15px;
+  font-family: 'Arsenal', sans-serif;
+}
+
+.dropdown-menu>li>a {
+  color: white;
+}
+
+html,
+body{
+  min-height: 100%;
+}
+
+body{
+margin-top: 105px;
+}
+
+.containerOne {
+  margin: 4% auto;
+  width: 210px;
+  height: 140px;
+  position: relative;
+  perspective: 1000px;
+}
+#carousel{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotation 30s infinite linear;
+}
+
+/*Stops movement with mouse hover*/
+#carousel:hover{
+  animation-play-state: paused;
+}
+
+#carousel figure{
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 50%px;
+  left: 10px;
+  top: 10px;
+  background: black;
+  overflow: hidden;
+  border: solid 5px black;
+}
+
+/*THIS CODE is most def borrowed!*/
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+
+/*All B&W images until mouse over - then colored images*/
+img{
+  -webkit-filter: grayscale(1);
+  cursor: pointer;
+  transition: all .4s ease;
+}
+img:hover{
+  -webkit-filter: grayscale(0);
+  transform: scale(1.2,1.2);
+}
+
+@keyframes rotation{
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(360deg);
+  }
+}
+
+/*.aboutMe {
+  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
+}*/
+
+#aboutMe {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+/*  font-family: 'Indie Flower', cursive;*/
+  font-size: 20px;
+  color: #dee2e8;
+  font-style: italic;
+  text-align: justify;
+}
+
+.photoWheel {
+  width: 103%;
+  margin-top:4px;
+}
+
+/*#backgroundEddie {
+  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}*/
+
+body {
+  margin-top: 105px;
+  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar {
+  padding-bottom: 14px;
+}
+
+#accordion {
+  width: 230px;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 20px;
+  color: #b2b5ba;
+  /*background-color: black;*/
+  text-align: center;
+/*  padding-top: 105px;*/
+  margin: auto;
+  text-align: center;
+  margin: 186px 0px 0px 90px;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: black;
+  margin-top: 5px;
+}
+
+.panel-title {
+  font-family: 'Arsenal', sans-serif
+}
+
+.panel-default {
+  border-color: black;
+}
+
+.panel-heading {
+  border-radius: 0;
+}
+
+#photoDetails {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-top: 12%;
+}
+
+/*TRYING TO HIDE/REMOVE LIGHTBOX ON MobILE
+@media screen and (min-width: 796px){
+.lightbox .lightbox img {
+  visability: hidden;
+  display: none;
+  }
+}
+
+@media screen and (min-width: 550px){
+.lightbox .lightbox img {
+  visability: hidden;
+  display: none;
+  }
+}*/
+
+
+
