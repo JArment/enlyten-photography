@@ -1,18 +1,39 @@
-.App {
-  text-align: center;
+.enlyten-header {
+  background-color: black;
+  height: 125px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.enlyten-logo {
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 210px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.enlyten-navbar {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
+
+/*
+html,
+body{
+  min-height: 100%;
+}
+*/
+
+body {
+  background-color: black;
+  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+/*
 
 .App-title {
   font-size: 2.5em;
@@ -22,25 +43,26 @@
   color: teal;
   font-size: large;
 }
+*/
 
+/*
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+*/
 
-// styles from v1 by Heather
+//styles from v1 by Heather
 
-body {
-  background-color: black;
-}
+
 
 hr {
   border-color: red;
 }
 
+/**
 .example6 .navbar-brand{
   background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
-  /*ENLYTEN logo image*/
   width: 200px;
   height: 90px;
 }
@@ -48,9 +70,9 @@ hr {
 .navbar {
   background-color: black;
   padding-top: 15px;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -63,6 +85,14 @@ hr {
 .navbar-nav>li>.dropdown-menu {
   background-color: black;
 }
+
+.example6 .navbar-brand{
+  background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
+  width: 200px;
+  height: 90px;
+}
+
+**/
 
 .dropdown-menu {
   font-size: 15px;
@@ -154,9 +184,7 @@ footer {
   text-align: center;
 }
 
-body {
-  margin-top: 30px;
-}
+
 
 #container {
   margin-left: 15px;
@@ -193,39 +221,15 @@ body {
   display: block;
 }
 
-body {
-  background-color: black;
-}
+
 
 hr {
   border-color: red;
 }
 
-.example6 .navbar-brand{
-  background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
-  /*ENLYTEN logo image*/
-  width: 200px;
-  height: 90px;
-}
 
-.navbar {
-  background-color: black;
-  padding-top: 15px;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
 
-.navbar-inverse .navbar-nav>li>a {
-  padding-top: 42px;
-  color: white;
-  font-family: 'Arsenal', sans-serif;
-  font-size: 16px;
-}
 
-.navbar-nav>li>.dropdown-menu {
-  background-color: black;
-}
 
 .dropdown-menu {
   font-size: 15px;
@@ -236,14 +240,7 @@ hr {
   color: white;
 }
 
-html,
-body{
-  min-height: 100%;
-}
 
-body{
-margin-top: 105px;
-}
 
 .containerOne {
   margin: 4% auto;
@@ -277,7 +274,7 @@ margin-top: 105px;
   border: solid 5px black;
 }
 
-/*THIS CODE is most def borrowed!*/
+/*THIS CODE is most def borrowed!
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
 #carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
 #carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
@@ -287,8 +284,9 @@ margin-top: 105px;
 #carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
 #carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
 #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+*/
 
-/*All B&W images until mouse over - then colored images*/
+/*All B&W images until mouse over - then colored images
 img{
   -webkit-filter: grayscale(1);
   cursor: pointer;
@@ -307,6 +305,7 @@ img:hover{
     transform: rotateY(360deg);
   }
 }
+*/
 
 /*.aboutMe {
   background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
@@ -336,21 +335,13 @@ img:hover{
   background-size: 100%;
 }*/
 
-body {
-  margin-top: 105px;
-  background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
+
 
 a:link {
     text-decoration: none;
 }
 
-.navbar {
-  padding-bottom: 14px;
-}
+
 
 #accordion {
   width: 230px;
