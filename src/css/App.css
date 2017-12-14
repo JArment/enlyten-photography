@@ -18,32 +18,58 @@
     width: 100%;
 }
 
-/*this margin is temporary - edits in progress*/
-.enlyten-dropdowns .dropdown {
+/*.buttons {
+    position: relative;
+}
+*/
+
+.button {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    text-decoration: none;
+    top: 95px;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 2px;
+    grid-auto-rows: minmax(20px, auto);
+    color: white;
+    max-width: 825px;
+    margin: 0 60px 0 390px;
+}
+
+.button-styles {
     background-color: black;
     border: none;
     color: white;
-    display: inline-block;
-    font-family: 'Arsenal', sans-serif;
-    font-size: 15px;
-    margin: 80px 0px 0px 630px;
-    padding: 15px 32px;
-    text-align: left;
-    text-decoration: none;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 5;
+}
+.two {
+    grid-column: 2;
+    grid-row: 5;
+}
+.three {
+    grid-column: 3;
+    grid-row: 5;
+}
+.four {
+    grid-column: 4;
+    grid-row: 5;
 }
 
 
 
-.enlyten-dropdowns>li>a {
-}
 
 
-/*
-html,
-body{
-  min-height: 100%;
-}
-*/
+
+
 
 body {
   background-color: black;
