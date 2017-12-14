@@ -1,3 +1,5 @@
+/*normalize reset css*/
+
 .enlyten-header {
   background-color: black;
   height: 125px;
@@ -11,11 +13,30 @@
 }
 
 .enlyten-navbar {
-    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
 }
+
+/*this margin is temporary - edits in progress*/
+.enlyten-dropdowns .dropdown {
+    background-color: black;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 15px;
+    margin: 80px 0px 0px 630px;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
+.enlyten-dropdowns>li>a {
+}
+
 
 /*
 html,
@@ -82,9 +103,7 @@ hr {
   font-size: 16px;
 }
 
-.navbar-nav>li>.dropdown-menu {
-  background-color: black;
-}
+
 
 .example6 .navbar-brand{
   background: url("http://i349.photobucket.com/albums/q397/oghp78/df505e78-2e0d-4787-9719-c0eb5e361bdc_zpsudeyo35j.jpg") center / contain no-repeat;
@@ -94,14 +113,7 @@ hr {
 
 **/
 
-.dropdown-menu {
-  font-size: 15px;
-  font-family: 'Arsenal', sans-serif;
-}
 
-.dropdown-menu>li>a {
-  color: white;
-}
 
 .cols {
     -moz-column-count:4;
@@ -231,14 +243,6 @@ hr {
 
 
 
-.dropdown-menu {
-  font-size: 15px;
-  font-family: 'Arsenal', sans-serif;
-}
-
-.dropdown-menu>li>a {
-  color: white;
-}
 
 
 

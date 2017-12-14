@@ -4,29 +4,22 @@ import '../css/Nav.css';
 class Nav extends Component {
   render() {
     return (
+        //change all of these buttons to DROPDOWN menus? Remember static-SG dropdwon (very complex) or make clickable and show options on the link that will appear (after clicked)
         <nav className="enlyten-navbar">
-            <div>
-                {/*<a className="e-logo" scr="../images/logo"></a>*/}
+            <div className="enlyten-dropdowns">
+                <button className="dropdown">
+                  <a href="#">PORTRAIT PHOTOGRAPHY</a>
+                </button>
+                <button className="dropdown">
+                  <a href="#">ARTISTIC PHOTOGRAPHY</a>
+                </button>
+                <button className="dropdown">
+                  <a href="#">EVENT PHOTOGRAPHY</a>
+                </button>
+                <button className="dropdown">
+                  <a href="#">THE PHOTOGRAPHER</a>
+                </button>
             </div>
-{/*            <div>
-                <ul>
-                  <li className="dropdown">
-                      <a href="scapes.html">PORTRAIT <span className="caret"></span></a>
-                  </li>
-                  <li className="dropdown">
-                      <a href="humans.html">ARTISTIC <span className="caret"></span></a>
-                  </li>
-                  <li className="dropdown">
-                      <a href="other.html">EVENT<span className="caret"></span></a>
-                  </li>
-                  <li className="dropdown">
-                      <a href="details.html">THE PHOTOGRAPHER <span className="caret"></span></a>
-                   </li>
-                  <li><a href="about.html">ABOUT</a></li>
-                  <li><a href="investment.html">INVESTMENT</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>*/}
         </nav>
     );
   }
