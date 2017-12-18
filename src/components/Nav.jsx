@@ -1,38 +1,26 @@
 import React, { Component } from 'react';
 import '../css/Nav.css';
+// import Portraits from './Portraits';
 
+//how do I create a component for the individual categories and reference them here?
+//Or, should I create 1 component for "category" and make it reusable?
 class Nav extends Component {
   render() {
     return (
-        //change all of these buttons to DROPDOWN menus? Remember static-SG dropdwon (very complex) or make clickable and show options on the link that will appear (after clicked)
         <nav className="enlyten-navbar">
-{/*            <div>
-                <button className="button" id="buttonPortrait">
-                  <a href="#">PORTRAIT PHOTOGRAPHY</a>
-                </button>
-                <button className="button" id="buttonArtistic">
-                  <a href="#">ARTISTIC PHOTOGRAPHY</a>
-                </button>
-                <button className="button" id="buttonEvent">
-                  <a href="#">EVENT PHOTOGRAPHY</a>
-                </button>
-                <button className="button" id="buttonThePhotographer">
-                  <a href="#">THE PHOTOGRAPHER</a>
-                </button>
-            </div>*/}
-            <div class="wrapper">
-                <button class="one button-styles">
-                    <a href="#">PORTRAITS</a>
-                </button>
-                <button class="two button-styles">
-                    <a href="#">ARTISTIC</a>
-                </button>
-                <button class="three button-styles">
-                    <a href="#">EVENTS</a>
-                </button>
-                <button class="four button-styles">
-                    <a href="#">THE PHOTOGRAPHER</a>
-                </button>
+            <div className="wrapper">
+                <a href="#" className="one nav-styles">
+                Portraits
+                </a>
+                <a href="#" className="two nav-styles">
+                    Artistic
+                </a>
+                <a href="#" className="three nav-styles">
+                    Events
+                </a>
+                <a href="#" className="four nav-styles">
+                    The Photographer
+                </a>
             </div>
         </nav>
     );
@@ -41,4 +29,17 @@ class Nav extends Component {
 
 export default Nav;
 
+/*
+function ActionLink() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('The link was clicked.');
+  }
 
+  return (
+    <a href="#" onClick={handleClick}>
+      Click me
+    </a>
+  );
+}
+*/
