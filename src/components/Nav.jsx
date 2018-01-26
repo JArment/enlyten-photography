@@ -1,27 +1,24 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../css/Nav.css';
-// import Portraits from './Portraits';
 
-//how do I create a component for the individual categories and reference them here?
-//Or, should I create 1 component for "category" and make it reusable?
+// removed <nav className="enlyten-navbar">
 class Nav extends Component {
   render() {
     return (
-        <nav className="enlyten-navbar">
-            <div className="wrapper">
-                <a href="#" className="one nav-styles">
+        <nav className="wrapper">
+            <Link to="/portraits" className="one nav-styles">
                 Portraits
-                </a>
-                <a href="#" className="two nav-styles">
-                    Artistic
-                </a>
-                <a href="#" className="three nav-styles">
-                    Events
-                </a>
-                <a href="#" className="four nav-styles">
-                    The Photographer
-                </a>
-            </div>
+            </Link>
+            <Link to="/artistic" className="two nav-styles">
+                Artistic
+            </Link>
+            <Link to="/events" className="three nav-styles">
+                Events
+            </Link>
+            <Link to="/photographer" className="four nav-styles">
+                The Photographer
+            </Link>
         </nav>
     );
   }

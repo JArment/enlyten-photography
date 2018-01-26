@@ -6,8 +6,8 @@ class Header extends Component {
   render() {
     return (
         <header className="enlyten-header">
-          <Nav />
           <Logo />
+          <Nav />
         </header>
     );
   }

@@ -3,9 +3,11 @@
 .enlyten-header {
   background-color: black;
   height: 125px;
+  padding-bottom: 20px;
 }
 
 .enlyten-logo {
+    display: block;
     height: 100px;
     padding-left: 10px;
     padding-top: 10px;
@@ -23,35 +25,36 @@
     grid-gap: 2px;
     grid-auto-rows: minmax(20px, auto);
     max-width: 825px;
-    margin: 0 60px 0 390px;
+    margin: 0 0 0 390px;
 }
 
 .nav-styles {
     background-color: black;
     border: none;
     color: white;
-    font-family: 'Arsenal', sans-serif;
     text-transform: uppercase;
 }
 
 .one {
     grid-column: 1;
-    grid-row: 5;
+    grid-row: 1;
 }
 .two {
     grid-column: 2;
-    grid-row: 5;
+    grid-row: 1;
 }
 .three {
     grid-column: 3;
-    grid-row: 5;
+    grid-row: 1;
 }
 .four {
     grid-column: 4;
-    grid-row: 5;
+    grid-row: 1;
 }
 
-
+.homepage {
+  width: 100%;
+}
 
 
 
@@ -59,11 +62,9 @@
 
 
 body {
-      background-color: black;
-      background-image: url("http://i349.photobucket.com/albums/q397/oghp78/ENLYTEN%20IN%20ACTION/Photo%20Guy-1_zpsoluyumtd.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-attachment: fixed;
+        background-color: black;
+        color: white;
+        font-family: 'Arsenal', sans-serif;
 }
 
 
